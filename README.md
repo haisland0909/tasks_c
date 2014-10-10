@@ -6,11 +6,11 @@
 ## Needs
 execute.sh uses clang compiler , so please install clang .
 ## How to use execute.sh
-`execute.sh`
-Do all tasks in this directory
-`execute.sh 1`
-Do all tasks in 1 directory eg.)1-1 , 1-2 , 1-3 ...
-`execute.sh 1 1`
+`execute.sh`  
+Do all tasks in this directory  
+`execute.sh 1`  
+Do all tasks in 1 directory eg.)1-1 , 1-2 , 1-3 ...  
+`execute.sh 1 1`  
 Do 1-1 task only
 
 

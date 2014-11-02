@@ -11,7 +11,7 @@ Do all tasks in this directory
 `execute.sh 1`  
 Do all tasks in 1 directory eg.)1-1 , 1-2 , 1-3 ...  
 `execute.sh 1 1`  
-Do 1-1 task only
+Do 1-1 task only  
 `./execute.sh -l`  
 List All Tasks
 

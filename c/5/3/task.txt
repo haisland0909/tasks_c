@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int i;
+	int v[5] = {1, 2, 3, 4, 5};		/* 初期化 */
+
+	for (i = 0; i < 5; i++)			/* 要素の値を表示 */
+		printf("v[%d] = %d\n", i, v[i]);
+
+	return 0;
+}
+
+を書き換えて、5,4,3,2,1で初期化するようにせよ。

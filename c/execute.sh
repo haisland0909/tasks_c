@@ -74,6 +74,34 @@ execute(){
     fi
 }
 
+list(){    
+    dirname=`dirname $0`
+    cd ${dirname}
+    for d_1 in `ls -F | grep / | sort -n` 
+    do
+        d_1_name=`echo ${d_1} | tr -d "/"`
+        cd ${d_1}
+        for d_2 in `ls -F | grep / | sort -n` 
+        do
+            d_2_name=`echo ${d_2} | tr -d '/'`
+            echo "${d_1_name}-${d_2_name}"
+        done
+        cd ../
+    done
+}
+
+
+while getopts l OPT
+do
+  case $OPT in
+    "l" ) 
+        list
+        exit 0;;
+  esac
+done
+
+
+
 if [ $# -eq 0 ]; then
     echo "全ての演習を実行します"
     execute

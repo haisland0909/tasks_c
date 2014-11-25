@@ -20,7 +20,7 @@ do_task(){
     echo "----------ここまで----------"
     echo
     echo "コンパイルします"
-    clang -o task.exe task.c
+    clang -lm -o task.exe task.c
     echo
     echo "実行します"
     ./task.exe

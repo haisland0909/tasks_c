@@ -1,0 +1,5 @@
+#define max(x, y) ((x) > (y) ? (x) : (y))
+によって、大きな数を求めるマクロが記述できるが
+max(max(a, b), max(c, d))
+max(max(max(a, b), c), d)
+がどうなるか検討せよ。

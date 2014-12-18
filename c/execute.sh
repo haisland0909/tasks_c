@@ -90,12 +90,32 @@ list(){
     done
 }
 
+move(){ 
+    dirname=`dirname $0`
+    cd ${dirname}
+    for d_1 in `ls -F | grep / | sort -n` 
+    do
+        d_1_name=`echo ${d_1} | tr -d "/"`
+        cd ${d_1}
+        for d_2 in `ls -F | grep / | sort -n` 
+        do
+            d_2_name=`echo ${d_2} | tr -d '/'`
+            echo "${d_1_name}-${d_2_name}をコピーします"
+            cp -f ${d_2}/task.c ${d_2}/${d_1_name}-${d_2_name}.c
+        done
+        cd ../
+    done
+}
 
-while getopts l OPT
+
+while getopts lm OPT
 do
   case $OPT in
     "l" ) 
         list
+        exit 0;;
+    "m" )
+        move
         exit 0;;
   esac
 done

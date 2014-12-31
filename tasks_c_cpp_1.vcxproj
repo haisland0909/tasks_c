@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{24DCC5E9-633B-4F3C-AF82-5FC99509F5CC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="c\10\1\10-1.c" />
+    <ClCompile Include="c\10\1\task.c" />
+    <ClCompile Include="c\10\2\10-2.c" />
+    <ClCompile Include="c\10\2\task.c" />
+    <ClCompile Include="c\10\3\10-3.c" />
+    <ClCompile Include="c\10\3\task.c" />
+    <ClCompile Include="c\10\4\10-4.c" />
+    <ClCompile Include="c\10\4\task.c" />
+    <ClCompile Include="c\10\5\10-5.c" />
+    <ClCompile Include="c\10\5\task.c" />
+    <ClCompile Include="c\11\1\11-1.c" />
+    <ClCompile Include="c\11\1\task.c" />
+    <ClCompile Include="c\11\2\11-2.c" />
+    <ClCompile Include="c\11\2\task.c" />
+    <ClCompile Include="c\1\1\1-1.c" />
+    <ClCompile Include="c\1\1\task.c" />
+    <ClCompile Include="c\1\2\1-2.c" />
+    <ClCompile Include="c\1\2\task.c" />
+    <ClCompile Include="c\1\3\1-3.c" />
+    <ClCompile Include="c\1\3\task.c" />
+    <ClCompile Include="c\1\4\1-4.c" />
+    <ClCompile Include="c\1\4\task.c" />
+    <ClCompile Include="c\1\5\1-5.c" />
+    <ClCompile Include="c\1\5\task.c" />
+    <ClCompile Include="c\1\6\1-6.c" />
+    <ClCompile Include="c\1\6\task.c" />
+    <ClCompile Include="c\1\7\1-7.c" />
+    <ClCompile Include="c\1\7\task.c" />
+    <ClCompile Include="c\1\8\1-8.c" />
+    <ClCompile Include="c\1\8\task.c" />
+    <ClCompile Include="c\1\9\1-9.c" />
+    <ClCompile Include="c\1\9\task.c" />
+    <ClCompile Include="c\2\1\2-1.c" />
+    <ClCompile Include="c\2\1\task.c" />
+    <ClCompile Include="c\2\2\2-2.c" />
+    <ClCompile Include="c\2\2\task.c" />
+    <ClCompile Include="c\2\3\2-3.c" />
+    <ClCompile Include="c\2\3\task.c" />
+    <ClCompile Include="c\2\4\2-4.c" />
+    <ClCompile Include="c\2\4\task.c" />
+    <ClCompile Include="c\2\5\2-5.c" />
+    <ClCompile Include="c\2\5\task.c" />
+    <ClCompile Include="c\2\6\2-6.c" />
+    <ClCompile Include="c\2\6\task.c" />
+    <ClCompile Include="c\3\10\3-10.c" />
+    <ClCompile Include="c\3\10\task.c" />
+    <ClCompile Include="c\3\11\3-11.c" />
+    <ClCompile Include="c\3\11\task.c" />
+    <ClCompile Include="c\3\12\3-12.c" />
+    <ClCompile Include="c\3\12\task.c" />
+    <ClCompile Include="c\3\13\3-13.c" />
+    <ClCompile Include="c\3\13\task.c" />
+    <ClCompile Include="c\3\1\3-1.c" />
+    <ClCompile Include="c\3\1\task.c" />
+    <ClCompile Include="c\3\2\3-2.c" />
+    <ClCompile Include="c\3\2\task.c" />
+    <ClCompile Include="c\3\3\3-3.c" />
+    <ClCompile Include="c\3\3\task.c" />
+    <ClCompile Include="c\3\4\3-4.c" />
+    <ClCompile Include="c\3\4\task.c" />
+    <ClCompile Include="c\3\5\3-5.c" />
+    <ClCompile Include="c\3\5\task.c" />
+    <ClCompile Include="c\3\6\3-6.c" />
+    <ClCompile Include="c\3\6\task.c" />
+    <ClCompile Include="c\3\7\3-7.c" />
+    <ClCompile Include="c\3\7\task.c" />
+    <ClCompile Include="c\3\8\3-8.c" />
+    <ClCompile Include="c\3\8\task.c" />
+    <ClCompile Include="c\3\9\3-9.c" />
+    <ClCompile Include="c\3\9\task.c" />
+    <ClCompile Include="c\4\10\4-10.c" />
+    <ClCompile Include="c\4\10\task.c" />
+    <ClCompile Include="c\4\11\4-11.c" />
+    <ClCompile Include="c\4\11\task.c" />
+    <ClCompile Include="c\4\12\4-12.c" />
+    <ClCompile Include="c\4\12\task.c" />
+    <ClCompile Include="c\4\13\4-13.c" />
+    <ClCompile Include="c\4\13\task.c" />
+    <ClCompile Include="c\4\14\4-14.c" />
+    <ClCompile Include="c\4\14\task.c" />
+    <ClCompile Include="c\4\15\4-15.c" />
+    <ClCompile Include="c\4\15\task.c" />
+    <ClCompile Include="c\4\16\4-16.c" />
+    <ClCompile Include="c\4\16\task.c" />
+    <ClCompile Include="c\4\17\4-17.c" />
+    <ClCompile Include="c\4\17\task.c" />
+    <ClCompile Include="c\4\18\4-18.c" />
+    <ClCompile Include="c\4\18\task.c" />
+    <ClCompile Include="c\4\19\4-19.c" />
+    <ClCompile Include="c\4\19\task.c" />
+    <ClCompile Include="c\4\1\4-1.c" />
+    <ClCompile Include="c\4\1\task.c" />
+    <ClCompile Include="c\4\20\4-20.c" />
+    <ClCompile Include="c\4\20\task.c" />
+    <ClCompile Include="c\4\21\4-21.c" />
+    <ClCompile Include="c\4\21\task.c" />
+    <ClCompile Include="c\4\22\4-22.c" />
+    <ClCompile Include="c\4\22\task.c" />
+    <ClCompile Include="c\4\23a\4-23a.c" />
+    <ClCompile Include="c\4\23a\task.c" />
+    <ClCompile Include="c\4\23b\4-23b.c" />
+    <ClCompile Include="c\4\23b\task.c" />
+    <ClCompile Include="c\4\24\4-24.c" />
+    <ClCompile Include="c\4\24\task.c" />
+    <ClCompile Include="c\4\25\4-25.c" />
+    <ClCompile Include="c\4\25\task.c" />
+    <ClCompile Include="c\4\2\4-2.c" />
+    <ClCompile Include="c\4\2\task.c" />
+    <ClCompile Include="c\4\3\4-3.c" />
+    <ClCompile Include="c\4\3\task.c" />
+    <ClCompile Include="c\4\4\4-4.c" />
+    <ClCompile Include="c\4\4\task.c" />
+    <ClCompile Include="c\4\5\4-5.c" />
+    <ClCompile Include="c\4\5\task.c" />
+    <ClCompile Include="c\4\6\4-6.c" />
+    <ClCompile Include="c\4\6\task.c" />
+    <ClCompile Include="c\4\7\4-7.c" />
+    <ClCompile Include="c\4\7\task.c" />
+    <ClCompile Include="c\4\8\4-8.c" />
+    <ClCompile Include="c\4\8\task.c" />
+    <ClCompile Include="c\4\9\4-9.c" />
+    <ClCompile Include="c\4\9\task.c" />
+    <ClCompile Include="c\5\10\5-10.c" />
+    <ClCompile Include="c\5\10\task.c" />
+    <ClCompile Include="c\5\11\5-11.c" />
+    <ClCompile Include="c\5\11\task.c" />
+    <ClCompile Include="c\5\12\5-12.c" />
+    <ClCompile Include="c\5\12\task.c" />
+    <ClCompile Include="c\5\1\5-1.c" />
+    <ClCompile Include="c\5\1\task.c" />
+    <ClCompile Include="c\5\2\5-2.c" />
+    <ClCompile Include="c\5\2\task.c" />
+    <ClCompile Include="c\5\3\5-3.c" />
+    <ClCompile Include="c\5\3\task.c" />
+    <ClCompile Include="c\5\4\5-4.c" />
+    <ClCompile Include="c\5\4\task.c" />
+    <ClCompile Include="c\5\5\5-5.c" />
+    <ClCompile Include="c\5\5\task.c" />
+    <ClCompile Include="c\5\6\5-6.c" />
+    <ClCompile Include="c\5\6\task.c" />
+    <ClCompile Include="c\5\7\5-7.c" />
+    <ClCompile Include="c\5\7\task.c" />
+    <ClCompile Include="c\5\8\5-8.c" />
+    <ClCompile Include="c\5\8\task.c" />
+    <ClCompile Include="c\5\9\5-9.c" />
+    <ClCompile Include="c\5\9\task.c" />
+    <ClCompile Include="c\6\10\6-10.c" />
+    <ClCompile Include="c\6\10\task.c" />
+    <ClCompile Include="c\6\11\6-11.c" />
+    <ClCompile Include="c\6\11\task.c" />
+    <ClCompile Include="c\6\12\6-12.c" />
+    <ClCompile Include="c\6\12\task.c" />
+    <ClCompile Include="c\6\13\6-13.c" />
+    <ClCompile Include="c\6\13\task.c" />
+    <ClCompile Include="c\6\14\6-14.c" />
+    <ClCompile Include="c\6\14\task.c" />
+    <ClCompile Include="c\6\15\6-15.c" />
+    <ClCompile Include="c\6\15\task.c" />
+    <ClCompile Include="c\6\1\6-1.c" />
+    <ClCompile Include="c\6\1\task.c" />
+    <ClCompile Include="c\6\2\6-2.c" />
+    <ClCompile Include="c\6\2\task.c" />
+    <ClCompile Include="c\6\3\6-3.c" />
+    <ClCompile Include="c\6\3\task.c" />
+    <ClCompile Include="c\6\4\6-4.c" />
+    <ClCompile Include="c\6\4\task.c" />
+    <ClCompile Include="c\6\5\6-5.c" />
+    <ClCompile Include="c\6\5\task.c" />
+    <ClCompile Include="c\6\6\6-6.c" />
+    <ClCompile Include="c\6\6\task.c" />
+    <ClCompile Include="c\6\7\6-7.c" />
+    <ClCompile Include="c\6\7\task.c" />
+    <ClCompile Include="c\6\8\6-8.c" />
+    <ClCompile Include="c\6\8\task.c" />
+    <ClCompile Include="c\6\9\6-9.c" />
+    <ClCompile Include="c\6\9\task.c" />
+    <ClCompile Include="c\7\10\7-10.c" />
+    <ClCompile Include="c\7\10\task.c" />
+    <ClCompile Include="c\7\11a\7-11a.c" />
+    <ClCompile Include="c\7\11a\task.c" />
+    <ClCompile Include="c\7\11b\7-11b.c" />
+    <ClCompile Include="c\7\11b\task.c" />
+    <ClCompile Include="c\7\1\7-1.c" />
+    <ClCompile Include="c\7\1\task.c" />
+    <ClCompile Include="c\7\2\7-2.c" />
+    <ClCompile Include="c\7\2\task.c" />
+    <ClCompile Include="c\7\3\7-3.c" />
+    <ClCompile Include="c\7\3\task.c" />
+    <ClCompile Include="c\7\4\7-4.c" />
+    <ClCompile Include="c\7\4\task.c" />
+    <ClCompile Include="c\7\5\7-5.c" />
+    <ClCompile Include="c\7\5\task.c" />
+    <ClCompile Include="c\7\6\7-6.c" />
+    <ClCompile Include="c\7\6\task.c" />
+    <ClCompile Include="c\7\7\7-7.c" />
+    <ClCompile Include="c\7\7\task.c" />
+    <ClCompile Include="c\7\8\7-8.c" />
+    <ClCompile Include="c\7\8\task.c" />
+    <ClCompile Include="c\7\9\7-9.c" />
+    <ClCompile Include="c\7\9\task.c" />
+    <ClCompile Include="c\8\10\8-10.c" />
+    <ClCompile Include="c\8\10\task.c" />
+    <ClCompile Include="c\8\1\8-1.c" />
+    <ClCompile Include="c\8\1\task.c" />
+    <ClCompile Include="c\8\2\8-2.c" />
+    <ClCompile Include="c\8\2\task.c" />
+    <ClCompile Include="c\8\3\8-3.c" />
+    <ClCompile Include="c\8\3\task.c" />
+    <ClCompile Include="c\8\4\8-4.c" />
+    <ClCompile Include="c\8\4\task.c" />
+    <ClCompile Include="c\8\5\8-5.c" />
+    <ClCompile Include="c\8\5\task.c" />
+    <ClCompile Include="c\8\6\8-6.c" />
+    <ClCompile Include="c\8\6\task.c" />
+    <ClCompile Include="c\8\7\8-7.c" />
+    <ClCompile Include="c\8\7\task.c" />
+    <ClCompile Include="c\8\8\8-8.c" />
+    <ClCompile Include="c\8\8\task.c" />
+    <ClCompile Include="c\8\9\8-9.c" />
+    <ClCompile Include="c\8\9\task.c" />
+    <ClCompile Include="c\9\10\9-10.c" />
+    <ClCompile Include="c\9\10\task.c" />
+    <ClCompile Include="c\9\11\9-11.c" />
+    <ClCompile Include="c\9\11\task.c" />
+    <ClCompile Include="c\9\12\9-12.c" />
+    <ClCompile Include="c\9\12\task.c" />
+    <ClCompile Include="c\9\1\9-1.c" />
+    <ClCompile Include="c\9\1\task.c" />
+    <ClCompile Include="c\9\2\9-2.c" />
+    <ClCompile Include="c\9\2\task.c" />
+    <ClCompile Include="c\9\3\9-3.c" />
+    <ClCompile Include="c\9\3\task.c" />
+    <ClCompile Include="c\9\4\9-4.c" />
+    <ClCompile Include="c\9\4\task.c" />
+    <ClCompile Include="c\9\5\9-5.c" />
+    <ClCompile Include="c\9\5\task.c" />
+    <ClCompile Include="c\9\6\9-6.c" />
+    <ClCompile Include="c\9\6\task.c" />
+    <ClCompile Include="c\9\7\9-7.c" />
+    <ClCompile Include="c\9\7\task.c" />
+    <ClCompile Include="c\9\8\9-8.c" />
+    <ClCompile Include="c\9\8\task.c" />
+    <ClCompile Include="c\9\9\9-9.c" />
+    <ClCompile Include="c\9\9\task.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

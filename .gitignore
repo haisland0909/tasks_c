@@ -1,5 +1,5 @@
 *.exe
-
+task.c
 # User-specific files
 *.suo
 *.user

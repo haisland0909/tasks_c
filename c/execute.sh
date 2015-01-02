@@ -107,8 +107,23 @@ move(){
     done
 }
 
+make(){
+    dirname=`dirname $0`
+    cd ${dirname}
+    for d_1 in `ls -F | grep / | sort -n`
+    do
+        d_1_name=`echo ${d_1} | tr -d "/"`
+        cd ${d_1}
+        for d_2 in `ls -F | grep / | sort -n`
+        do
+            d_2_name=`echo ${d_2} | tr -d '/'`
+            echo "${d_1_name}-${d_2_name}をコピーします"
+            cp -f ${d_2}/${d_1_name}-${d_2_name}.c ${d_2}/task.c
+        done
+    done
+}
 
-while getopts lm OPT
+while getopts lmr OPT
 do
   case $OPT in
     "l" ) 
@@ -116,6 +131,9 @@ do
         exit 0;;
     "m" )
         move
+        exit 0;;
+    "r" )
+        make
         exit 0;;
   esac
 done

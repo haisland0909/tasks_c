@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int str_chnum(const char *s, int c)
+char *str_chr(const char *s, int c)
 {
-    int len = 0;
     while (*s) {
         if (*s == c) {
-            len++;
+
+            return s;
         }
         *s++;
     }
 
-    return len;
+    return NULL;
 }
 
 int main(void)
@@ -24,7 +24,7 @@ int main(void)
     printf("ŒŸõŒêF");
     scanf("%s", needle);
 
-    printf("%s‚É%s‚Í%dŒÂ‚ ‚è‚Ü‚·B", str, needle, str_chnum(str, *needle));
+    printf("%s", str_chr(str, *needle));
 
     return 0;
 }

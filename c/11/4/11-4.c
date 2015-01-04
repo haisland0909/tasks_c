@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void put_string(const char *s)
 {
     printf("%s", s);

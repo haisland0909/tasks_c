@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #define CHAR_LENGTH 10
 int main(void)
 {

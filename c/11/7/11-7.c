@@ -1,11 +1,11 @@
-/*
-•¶š—ñ“à‚Ì‰pš‚ğ‘å•¶š^¬•¶š‚É•ÏŠ·
+ï»¿/*
+æ–‡å­—åˆ—å†…ã®è‹±å­—ã‚’å¤§æ–‡å­—ï¼å°æ–‡å­—ã«å¤‰æ›
 */
 
 #include <ctype.h>
 #include <stdio.h>
 
-/*--- •¶š—ñ“à‚Ì‰pš‚ğ‘å•¶š‚É•ÏŠ· ---*/
+/*--- æ–‡å­—åˆ—å†…ã®è‹±å­—ã‚’å¤§æ–‡å­—ã«å¤‰æ› ---*/
 void str_toupper(char *s)
 {
     while (*s) {
@@ -14,7 +14,7 @@ void str_toupper(char *s)
     }
 }
 
-/*--- •¶š—ñ“à‚Ì‰pš‚ğ¬•¶š‚É•ÏŠ· ---*/
+/*--- æ–‡å­—åˆ—å†…ã®è‹±å­—ã‚’å°æ–‡å­—ã«å¤‰æ› ---*/
 void str_tolower(char *s)
 {
     while (*s) {
@@ -27,14 +27,14 @@ int main(void)
 {
     char str[128];
 
-    printf("•¶š—ñ‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F");
+    printf("æ–‡å­—åˆ—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š");
     scanf("%s", str);
 
     str_toupper(str);
-    printf("‘å•¶šF%s\n", str);
+    printf("å¤§æ–‡å­—ï¼š%s\n", str);
 
     str_tolower(str);
-    printf("¬•¶šF%s\n", str);
+    printf("å°æ–‡å­—ï¼š%s\n", str);
 
     return 0;
 }

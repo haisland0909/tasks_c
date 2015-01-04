@@ -1,23 +1,23 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
-#define NAME_LEN	64		/* –¼‘O‚Ì•¶š” */
+#define NAME_LEN	64		/* åå‰ã®æ–‡å­—æ•° */
 
-/*=== Šw¶‚ğ•\‚·\‘¢‘Ì ===*/
+/*=== å­¦ç”Ÿã‚’è¡¨ã™æ§‹é€ ä½“ ===*/
 struct student {
-    char  name[NAME_LEN];	/* –¼‘O */
-    int   height;			/* g’· */
-    float weight;			/* ‘Ìd */
-    long  schols;			/* §Šw‹à */
+    char  name[NAME_LEN];	/* åå‰ */
+    int   height;			/* èº«é•· */
+    float weight;			/* ä½“é‡ */
+    long  schols;			/* å¥¨å­¦é‡‘ */
 };
 
 int main(void)
 {
     struct student takao = { "Takao", 173, 86.2 };
 
-    printf("@–¼  %s, ƒAƒhƒŒƒX  %p\n", takao.name, &takao.name);
-    printf("g@’·  %d, ƒAƒhƒŒƒX  %p\n\n", takao.height, &takao.height);
-    printf("‘Ì@d  %.1f, ƒAƒhƒŒƒX  %p\n\n", takao.weight, &takao.weight);
-    printf("§Šw‹à  %ld, ƒAƒhƒŒƒX  %p\n\n", takao.schols, &takao.schols);
+    printf("æ°ã€€å ï¼ %s, ã‚¢ãƒ‰ãƒ¬ã‚¹ ï¼ %p\n", takao.name, &takao.name);
+    printf("èº«ã€€é•· ï¼ %d, ã‚¢ãƒ‰ãƒ¬ã‚¹ ï¼ %p\n\n", takao.height, &takao.height);
+    printf("ä½“ã€€é‡ ï¼ %.1f, ã‚¢ãƒ‰ãƒ¬ã‚¹ ï¼ %p\n\n", takao.weight, &takao.weight);
+    printf("å¥¨å­¦é‡‘ ï¼ %ld, ã‚¢ãƒ‰ãƒ¬ã‚¹ ï¼ %p\n\n", takao.schols, &takao.schols);
 
     return 0;
 }

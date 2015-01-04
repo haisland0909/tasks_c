@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #define CHAR_LENGTH 10
 #define STR_LENGTH 128
 /*--- 文字列の配列を表示 ---*/

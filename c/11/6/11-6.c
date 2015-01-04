@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 char *str_chr(const char *s, int c)
 {
@@ -18,10 +18,10 @@ int main(void)
     char str[128]  = {0};
     char needle[2] = {0};
 
-    printf("ŒŸõ‘ÎÛF");
+    printf("æ¤œç´¢å¯¾è±¡ï¼š");
     scanf("%s", str);
 
-    printf("ŒŸõŒêF");
+    printf("æ¤œç´¢èªï¼š");
     scanf("%s", needle);
 
     printf("%s", str_chr(str, *needle));

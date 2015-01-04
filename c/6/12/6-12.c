@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 void mat_mul(const int a[4][3], const int b[3][4], int c[4][4])
 {

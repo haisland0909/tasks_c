@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int str_chnum(const char *s, int c)
 {
@@ -18,13 +18,13 @@ int main(void)
     char str[128]  = {0};
     char needle[2] = {0};
 
-    printf("ŒŸõ‘ÎÛF");
+    printf("æ¤œç´¢å¯¾è±¡ï¼š");
     scanf("%s", str);
 
-    printf("ŒŸõŒêF");
+    printf("æ¤œç´¢èªï¼š");
     scanf("%s", needle);
 
-    printf("%s‚É%s‚Í%dŒÂ‚ ‚è‚Ü‚·B", str, needle, str_chnum(str, *needle));
+    printf("%sã«%sã¯%då€‹ã‚ã‚Šã¾ã™ã€‚", str, needle, str_chnum(str, *needle));
 
     return 0;
 }

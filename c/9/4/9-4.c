@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 /*--- 文字列strの長さを返す ---*/
 void null_string(char s[])

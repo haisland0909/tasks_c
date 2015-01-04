@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 /*--- ４行３列の行列aとbの和をcに格納する ---*/
 void mat_add(const int a[4][3], const int b[4][3], int c[4][3])

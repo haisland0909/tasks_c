@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 
 /*--- 整数x中のセットされたビット数を返す ---*/

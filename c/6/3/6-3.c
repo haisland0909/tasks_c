@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 /*--- xの3乗値を返す ---*/
 int cube(int x)

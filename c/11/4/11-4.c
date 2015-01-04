@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 void put_string(const char *s)
 {
@@ -10,7 +10,7 @@ int main(void)
 {
     char str[128];
 
-    printf("•\¦‚·‚é‚Ì‚ÍF");
+    printf("è¡¨ç¤ºã™ã‚‹ã®ã¯ï¼š");
     scanf("%128s", str);
 
     put_string(str);

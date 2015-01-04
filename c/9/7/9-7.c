@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 /*--- 文字列sを表示（改行はしない）---*/
 void put_string(const char s[])

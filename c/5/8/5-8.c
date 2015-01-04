@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 #define NUMBER  80      /* 人数の上限 */
 

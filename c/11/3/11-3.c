@@ -1,6 +1,6 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
-/*--- •¶š—ñs‚ğd‚ÉƒRƒs[‚·‚é ---*/
+/*--- æ–‡å­—åˆ—sã‚’dã«ã‚³ãƒ”ãƒ¼ã™ã‚‹ ---*/
 char *str_copy(char *d, const char *s)
 {
     char *t = d;
@@ -17,12 +17,12 @@ int main(void)
 
     printf("str = \"%s\"\n", str);
 
-    printf("ƒRƒs[‚·‚é‚Ì‚ÍF", tmp);
+    printf("ã‚³ãƒ”ãƒ¼ã™ã‚‹ã®ã¯ï¼š", tmp);
     scanf("%s", tmp);
 
     
 
-    puts("ƒRƒs[‚µ‚Ü‚µ‚½B");
+    puts("ã‚³ãƒ”ãƒ¼ã—ã¾ã—ãŸã€‚");
     printf("str = \"%s\"\n", str_copy(str, tmp));
 
     return 0;

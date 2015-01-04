@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 /*--- xの4乗値を返す ---*/
 int sqr(int x)

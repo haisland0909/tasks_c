@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 /*--- 配列vの先頭n個の要素にvalを代入 ---*/
 void ary_set(int v[], int n, int val)

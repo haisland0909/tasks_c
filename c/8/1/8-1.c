@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 #define diff(x, y)  (x - y)     
 int main(void)

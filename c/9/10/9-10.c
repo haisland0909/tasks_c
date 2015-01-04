@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <ctype.h>
 
 /*--- 文字列sを表示（改行はしない）---*/

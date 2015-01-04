@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 int main(void)
@@ -6,25 +6,25 @@ int main(void)
     char str1[128]  = {0};
     char str2[128] = {0};
 
-    printf("•¶š—ñ1F");
+    printf("æ–‡å­—åˆ—1ï¼š");
     scanf("%s", str1);
 
-    printf("•¶š—ñ2F");
+    printf("æ–‡å­—åˆ—2ï¼š");
     scanf("%s", str2);
 
-    printf("•¶š—ñ1‚Ì’·‚³‚Í%d,•¶š—ñ2‚Ì’·‚³‚Í%dB\n", strlen(str1), strlen(str2) );
+    printf("æ–‡å­—åˆ—1ã®é•·ã•ã¯%d,æ–‡å­—åˆ—2ã®é•·ã•ã¯%dã€‚\n", strlen(str1), strlen(str2) );
 
-    printf("•¶š—ñ1‚É•¶š—ñ2‚ğ˜AŒ‹‚·‚é‚Æ%s\n", strcat(str1, str2));
+    printf("æ–‡å­—åˆ—1ã«æ–‡å­—åˆ—2ã‚’é€£çµã™ã‚‹ã¨%s\n", strcat(str1, str2));
 
     if (strcmp(str1, str2) > 0){
-        printf("•¶š—ñ1‚Í•¶š—ñ2‚æ‚è‚à‘å‚«‚¢‚Å‚·\n");
+        printf("æ–‡å­—åˆ—1ã¯æ–‡å­—åˆ—2ã‚ˆã‚Šã‚‚å¤§ãã„ã§ã™\n");
     } else {
-        printf("•¶š—ñ1‚Í•¶š—ñ2‚æ‚è‚à¬‚³‚¢‚Å‚·\n");
+        printf("æ–‡å­—åˆ—1ã¯æ–‡å­—åˆ—2ã‚ˆã‚Šã‚‚å°ã•ã„ã§ã™\n");
     }
     strcpy(str1, str2);
-    printf("•¶š—ñ2‚ğ•¶š—ñ1‚ÉƒRƒs[‚µ‚Ü‚µ‚½\n");
-    printf("•¶š—ñ1F%s\n", str1);
-    printf("•¶š—ñ2F%s\n", str2);
+    printf("æ–‡å­—åˆ—2ã‚’æ–‡å­—åˆ—1ã«ã‚³ãƒ”ãƒ¼ã—ã¾ã—ãŸ\n");
+    printf("æ–‡å­—åˆ—1ï¼š%s\n", str1);
+    printf("æ–‡å­—åˆ—2ï¼š%s\n", str2);
 
     return 0;
 }

@@ -1,6 +1,6 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
-/*=== xyz\‘¢‘Ì ===*/
+/*=== xyzæ§‹é€ ä½“ ===*/
 struct xyz {
     int    x;
     long   y;

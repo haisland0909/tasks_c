@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 /*--- 文字列strの長さを返す ---*/
 int str_char(const char s[], int c)

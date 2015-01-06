@@ -411,11 +411,19 @@
     <ClCompile Include="c\12\3\12-3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="c\12\4\12-4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\12\5\12-5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="c\11\7\task.txt" />
     <Text Include="c\12\1\task.txt" />
     <Text Include="c\12\2\task.txt" />
     <Text Include="c\12\3\task.txt" />
+    <Text Include="c\12\4\task.txt" />
+    <Text Include="c\12\5\task.txt" />
   </ItemGroup>
 </Project>

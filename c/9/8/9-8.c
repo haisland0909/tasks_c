@@ -21,7 +21,6 @@ void put_stringr(const char s[])
 int main(void)
 {
     char str[128];
-    int n;
 
     printf("文字列を入力してください：");
     scanf("%s", str);

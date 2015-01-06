@@ -417,6 +417,48 @@
     <ClCompile Include="c\12\5\12-5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="c\13\1\13-1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\2\sample">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\2\13-2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\3\13-3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\4\13-4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\5\13-5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\6\13-6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\7\13-7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\8\13-8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\9\13-9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\10\13-10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\11\13-11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\12\13-12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c\13\13\13-13.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="c\11\7\task.txt" />
@@ -425,5 +467,21 @@
     <Text Include="c\12\3\task.txt" />
     <Text Include="c\12\4\task.txt" />
     <Text Include="c\12\5\task.txt" />
+    <Text Include="c\13\1\task.txt" />
+    <Text Include="c\13\2\task.txt" />
+    <Text Include="c\13\3\task.txt" />
+    <Text Include="c\13\4\task.txt" />
+    <Text Include="c\13\5\task.txt" />
+    <Text Include="c\13\6\task.txt" />
+    <Text Include="c\13\7\task.txt" />
+    <Text Include="c\13\8\task.txt" />
+    <Text Include="c\13\9\task.txt" />
+    <Text Include="c\13\10\task.txt" />
+    <Text Include="c\13\11\task.txt" />
+    <Text Include="c\13\12\task.txt" />
+    <Text Include="c\13\13\task.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\NewMeikaiC\chap13\hw.dat" />
   </ItemGroup>
 </Project>
